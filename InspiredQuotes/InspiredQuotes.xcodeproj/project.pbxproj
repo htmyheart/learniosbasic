@@ -12,7 +12,7 @@
 		9A5BFD7E1E8AB875005B6132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BFD7C1E8AB875005B6132 /* Main.storyboard */; };
 		9A5BFD801E8AB875005B6132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BFD7F1E8AB875005B6132 /* Assets.xcassets */; };
 		9A5BFD831E8AB875005B6132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BFD811E8AB875005B6132 /* LaunchScreen.storyboard */; };
-		9A5BFD8B1E8ABB28005B6132 /* Coding-for-beginners-home_big-696x348.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BFD8A1E8ABB28005B6132 /* Coding-for-beginners-home_big-696x348.jpg */; };
+		9A5BFD8D1E8AC1F2005B6132 /* Coding-for-beginners-home_big-696x348.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BFD8C1E8AC1F2005B6132 /* Coding-for-beginners-home_big-696x348.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		9A5BFD7F1E8AB875005B6132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A5BFD821E8AB875005B6132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A5BFD841E8AB875005B6132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A5BFD8A1E8ABB28005B6132 /* Coding-for-beginners-home_big-696x348.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Coding-for-beginners-home_big-696x348.jpg"; path = "../../../../../../Downloads/Coding-for-beginners-home_big-696x348.jpg"; sourceTree = "<group>"; };
+		9A5BFD8C1E8AC1F2005B6132 /* Coding-for-beginners-home_big-696x348.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coding-for-beginners-home_big-696x348.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		9A5BFD6C1E8AB875005B6132 = {
 			isa = PBXGroup;
 			children = (
+				9A5BFD8C1E8AC1F2005B6132 /* Coding-for-beginners-home_big-696x348.jpg */,
 				9A5BFD771E8AB875005B6132 /* InspiredQuotes */,
 				9A5BFD761E8AB875005B6132 /* Products */,
 			);
@@ -56,7 +57,6 @@
 		9A5BFD771E8AB875005B6132 /* InspiredQuotes */ = {
 			isa = PBXGroup;
 			children = (
-				9A5BFD8A1E8ABB28005B6132 /* Coding-for-beginners-home_big-696x348.jpg */,
 				9A5BFD781E8AB875005B6132 /* AppDelegate.swift */,
 				9A5BFD7A1E8AB875005B6132 /* ViewController.swift */,
 				9A5BFD7C1E8AB875005B6132 /* Main.storyboard */,
@@ -128,7 +128,7 @@
 			files = (
 				9A5BFD831E8AB875005B6132 /* LaunchScreen.storyboard in Resources */,
 				9A5BFD801E8AB875005B6132 /* Assets.xcassets in Resources */,
-				9A5BFD8B1E8ABB28005B6132 /* Coding-for-beginners-home_big-696x348.jpg in Resources */,
+				9A5BFD8D1E8AC1F2005B6132 /* Coding-for-beginners-home_big-696x348.jpg in Resources */,
 				9A5BFD7E1E8AB875005B6132 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +301,7 @@
 				9A5BFD891E8AB875005B6132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
