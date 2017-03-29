@@ -13,19 +13,26 @@ class ViewController: UIViewController {
     @IBOutlet weak var number: UITextField!
     @IBOutlet weak var result: UILabel!
     @IBAction func checkNumberPrime(_ sender: Any) {
-        
-        
-        let num : Int? = number.text.toInt()
-        
-            for index in 1...num!{
-                print(index)
+        var resultCheck = true;
+        if let num = Int(number.text!) {
+            for index in 2...(num - 1) {
+                if (num % index) == 0 {
+                    resultCheck = false
+                }
             }
             
             //        print(num!)
-            result.text = String(num) + " isn't prime!"
-            result.text = String(num) + " is prime!"
+            if resultCheck == false {
+                result.text = String(num) + "\(num) isn't prime"
+            } else {
+                result.text = "\(num) is prime"
+            }
+            
             result.isHidden = false
-       
+
+        }
+        
+        
         
         
 
